@@ -15,3 +15,5 @@ Plugin 'tpope/vim-surround'
 
 call vundle#end()
 filetype plugin indent on
+
+map <C-e> :NERDTreeToggle<CR>
