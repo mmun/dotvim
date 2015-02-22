@@ -17,4 +17,8 @@ Plugin 'tpope/vim-surround'
 call vundle#end()
 filetype plugin indent on
 
+syntax enable
+set background=dark
+colorscheme solarized
+
 map <C-e> :NERDTreeToggle<CR>
